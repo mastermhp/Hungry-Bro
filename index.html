@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hungry BrO??</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+<!-- navigaion menu  -->
+      <nav class="fixed-top">
+        <div class="d-flex">
+          <img src="images/logo.png" alt="" width="70" height="40" class="d-inline-block mt-2">
+            <h6 class="logo">
+                Hungry 
+              <span class="spancolor">
+                BrO??
+              </span>
+            </h6>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <img src="images/menu.png" alt="" width="50" height="40" class="d-inline-block mt-2">     
+        </label>
+        <label for="click" class="cross-btn">
+          <img src="images/cross.png" alt="" width="40" height="30" class="d-inline-block mt-2">     
+        </label>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="orderGallery.html">order gallery</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+        
+      </nav>
+
+    <main id="home">
+      <section id="foods" class="mt-5">
+        <div class="">
+          <div class="container searchBG">
+            <div class="">
+              <!-- <h1 class="text-center">
+                  Hungry <span class="text-info">
+                      BrO??
+                  </span>
+              </h1> -->
+             <!-- food search area  -->
+              <div class="container mt-3 w-75 d-flex justify-content-center align-items-center">
+                      <input id="search-field" class="form-control me-2" type="search" placeholder="Search your food" aria-label="Search">
+                      <button onclick="searchFood()" id="search-button" class="btn btn-success" type="submit">Search</button>
+              </div>
+          </div>
+          </div>
+        </div>
+        <!-- food search result -->
+        <div class="container">
+            <div id="search-food" class="row row-cols-2 row-cols-md-4 mt-3">
+            
+            </div>
+        </div>
+    </section>
+     <!-- single food details  -->
+     <section id="food-details" class="container details mb-5">
+        
+    </section>
+    <section id="food-cart" class="container">
+      
+    </section>
+    </main>
+  <script src="app.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
